@@ -1,0 +1,14 @@
+### Login Success
+POST http://localhost:3000/login
+content-type: application/json
+
+{
+    "email": "admin@gmail.com",
+    "password": "admin"
+}
+
+### Logout
+POST http://localhost:3000/logout
+
+### Go to dashboard
+GET http://localhost:3000/dashboard
