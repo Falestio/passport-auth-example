@@ -1,0 +1,20 @@
+{
+  "name": "local",
+  "version": "1.0.0",
+  "description": "Local strategy using passport",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.18.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

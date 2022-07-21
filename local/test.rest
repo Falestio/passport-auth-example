@@ -1,0 +1,11 @@
+### Get homepage
+GET http://localhost:3000/
+
+### Login Success
+POST http://localhost:3000/login
+content-type: application/json
+
+{
+    "email": "admin@gmail.com",
+    "password": "admin"
+}
